@@ -25,16 +25,16 @@
 		<div></div>
 		<div id="menu"  style="text-align:center" >
 		
-			<a class="navi" href="index.html" >HOME<a>
+			<a class="navi" href="{{site.baseurl}}" >HOME<a>
 			|
-			<a class="navi"  href="upload.php" >ARTICAL</a>
+			<a class="navi"  href="/" >ARTICAL</a>
 			|
-			<a class="navi"  href="download.php" >DOWNLOAD</a>
+			<a class="navi"  href="" >DOWNLOAD</a>
 		</div>
 		
 		<p style='font:normal 50px/22px "Consolas"'>{{ page.desc }}</p>
 	
-		<div>{{page.content}}</div>
+		<div>  {{ content }} </div>
 	</span>
     
  </body>
