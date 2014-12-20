@@ -27,5 +27,5 @@ xpi$ git commit -m "first commit"
 xpi$ git remote add origin https://github.com/xpi/blog.git
 
 <br>
-xpi$ git push origin gh-pages
+##xpi$ git push origin gh-pages
 </p>
