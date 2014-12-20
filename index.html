@@ -6,11 +6,11 @@ desc: 一个代码分享blog
 
 
 <p>最新文章</p>
-	<table style="wdith:100%;border:1px solid #cdcdcd">
+	<table style="border:1px solid #cdcdcd">
 	
 	    {% for post in site.posts %}
 	    <tr>
-	      <td> <a class="artical-name" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td><td><span class="date">{{ post.date | date: "%Y-%m-%d"}}</span></td>
+	      <td style="width:40%"> <a class="artical-name" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td><td><span class="date">{{ post.date | date: "%Y-%m-%d"}}</span></td>
 		</tr>
 	    {% endfor %}
 
