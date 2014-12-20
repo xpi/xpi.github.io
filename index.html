@@ -7,9 +7,11 @@ desc: 一个代码分享blog
 
 <p>最新文章</p>
 <div style="width:500px;border:1px solid #cdcdcd;">
-	<ul>
+	<table>
+	<tr>
 	    {% for post in site.posts %}
-	      <li> <a class="artical-name" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%Y-%m-%d"}}</span></li>
+	      <td> <a class="artical-name" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td><td><span class="date">{{ post.date | date: "%Y-%m-%d"}}</span></td>
 	    {% endfor %}
-	</ul>
+	</tr>
+	</table>
 </div>
