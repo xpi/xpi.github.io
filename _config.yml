@@ -1,26 +1,20 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-pygments: true
-markdown: kramdown
+# Permalinks
+permalink:        /post/:title
 
-title: 黄晓棚的Github
-description: 分享各种技术偏方
-disqus: xiaoxiaosang
+# Setup
+title:            "Tyler Benziger"
+description:      "Tyler Benziger writes about things"
+url:              http://tybenz.com
+baseurl:          "/"
+paginate:         10
+
 author:
-  name: huangxiaopeng
-  email: 397110686@qq.com
-  github: xpi	
-  twitter: none
-  pinterest: none
-  linkedin: none
-  bio: xiaoxiaosang,huang xiaoxiaosang
-  email_md5: 95DC3AFB27F2AB9E4B9035E6FBBA51F6
+  name:           "Tyler Benziger"
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH: http://xpi.github.io
+# Custom vars
+twitter:        https://twitter.com/tybenz
+github:         https://github.com/tybenz
