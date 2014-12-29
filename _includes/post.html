@@ -120,22 +120,7 @@
     </ul>
 
     <hr>
-    {% if site.disqus %}
-    <section class="comments" style="margin-top:15px;">
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = '{{ site.disqus }}'; // required: replace example with your forum shortname
-        if(disqus_shortname){
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-        }
-      </script>
-      <noscript>
+
 <!-- 多说评论框 start -->
         <div class="ds-thread" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="page.title" data-url="page.site"></div>
       <!-- 多说评论框 end -->
@@ -154,9 +139,6 @@
 <!-- 多说公共JS代码 end -->
 
 
-      </noscript>
-    </section>
-    {% endif %}
   </div>
 
   <div class="col-sm-2 sidebar-2">
