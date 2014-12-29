@@ -6,9 +6,9 @@ pygments:         true
 permalink:        /post/:title
 
 # Setup
-title:            "huangxiaopeng"
-description:      "Tyler Benziger writes about things"
-url:              http://tybenz.com
+title:            "黄晓棚的Github"
+description:      "总想记录一些什么"
+url:              http://xpi.github.com
 baseurl:          "/"
 paginate:         10
 
@@ -16,5 +16,5 @@ author:
   name:           "Huang XiaoPeng"
 
 # Custom vars
-twitter:        https://twitter.com/tybenz
-github:         https://github.com/tybenz
+twitter:        https://twitter.com/huangxiaopeng
+github:         https://github.com/xpi
