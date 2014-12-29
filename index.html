@@ -1,6 +1,6 @@
 ---
 layout: page
-title: dbyll
+title: 黄晓棚的Github
 ---
 
 {% for post in paginator.posts %}
@@ -53,7 +53,7 @@ title: dbyll
   </li>
   {% else %}
   <li class="previous disabled">
-    <a>&larr; Newer</a>
+    <a>&larr; 上一页</a>
   </li>
   {% endif %}
   
@@ -63,7 +63,7 @@ title: dbyll
 
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ site.BASE_PATH }}/page{{ paginator.next_page }}">Older &rarr;</a>
+    <a href="{{ site.BASE_PATH }}/page{{ paginator.next_page }}">下一页 &rarr;</a>
   </li>
   {% else %}
   <li class="next disabled">
