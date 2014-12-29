@@ -6,14 +6,14 @@ pygments:         true
 permalink:        /post/:title
 
 # Setup
-title:            "Tyler Benziger"
+title:            "huangxiaopeng"
 description:      "Tyler Benziger writes about things"
 url:              http://tybenz.com
 baseurl:          "/"
 paginate:         10
 
 author:
-  name:           "Tyler Benziger"
+  name:           "Huang XiaoPeng"
 
 # Custom vars
 twitter:        https://twitter.com/tybenz
