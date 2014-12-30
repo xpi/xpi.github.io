@@ -10,11 +10,8 @@ title: "github pages 域名切换为主机域名"
 Hi there,
 
 You need to convert your project page to a user page:
-<h3>
-Rename your blog repository to xpi.github.io</h3><br>
-<h3>
-Move the content into the master branch
-</h3>
+<h3>Rename your blog repository to xpi.github.io</h3>
+<h3>Move the content into the master branch</h3>
 Your site will then be a user page, served at http://xpi.github.io.
 
 Thanks,
