@@ -1,21 +1,12 @@
 ---
 layout: post
-title: "github pages 域名切换为主机域名"
+title: "Github 最人性化的入门方式"
 ---
 
-首先要感谢James Dennes (GitHub Staff)为我解答了这个问题。
+参考了很多github的入门教程，无非是1.2.3……的教条主义教程。
 
-这是他回复的邮件：
+知道后来发现Github官方的一个互动式的教学网站，大家可以尝试，体会git的协作模式:
 
-Hi there,
+<h1><a href="https://try.github.io">https://try.github.io</a></h1>
 
-You need to convert your project page to a user page:
-<h3>Rename your blog repository to xpi.github.io</h3>
-<h3>Move the content into the master branch</h3>
-Your site will then be a user page, served at http://xpi.github.io.
-
-Thanks,
-James
-
-简单明了，把git库命名为主机名，把gh-pages分支下的东西移到master，然后等个几分钟就能从xpi.github.io登录了。
-
+2014已去，'2015'仍需努力，我是晓棚，大家晚安
