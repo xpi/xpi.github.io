@@ -9,4 +9,4 @@ title: "Github 最人性化的入门方式"
 
 <h1><a href="https://try.github.io">https://try.github.io</a></h1>
 
-2014已去，2015仍需努力，我是晓棚，大家晚安
+2014已去，'2015'仍需努力，我是晓棚，大家晚安
