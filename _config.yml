@@ -7,7 +7,7 @@ permalink:        /post/:title
 
 # Setup
 title:            "黄晓棚的Github"
-tagline:		  "静若止水，动如脱兔,但用此心，禅悟人生"
+tagline:		  "静若止水，动如脱兔，但用此心，禅悟人生"
 description:      "总想记录一些什么"
 url:              http://xpi.github.com
 baseurl:          "/"
