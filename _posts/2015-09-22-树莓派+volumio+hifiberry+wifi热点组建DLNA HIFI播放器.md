@@ -9,9 +9,11 @@ http://wangye.org/blog/archives/845/
 
 http://ju.outofmemory.cn/entry/1351
 
-硬件材料：树莓派(b2和2代都测试过)，内存卡，无线USB网卡，内存卡，U盘，淘宝那种PCM5122的DAC山寨声卡
+硬件材料：树莓派(b2和2代都测试过)，内存卡，无线USB网卡，内存卡，U盘，淘宝那种PCM5122的DAC山寨声卡.
+
 
 软件材料：封装好的Volumio(http://pan.baidu.com/s/1jGgk84m 密码: fo9g),当然后面还要配置网络
+
 <img src="/img/post/1.jpg" width='600'>
 <img src="/img/post/2.jpg" width='600'>
 <h2>第一步： 系统安装</h2>
