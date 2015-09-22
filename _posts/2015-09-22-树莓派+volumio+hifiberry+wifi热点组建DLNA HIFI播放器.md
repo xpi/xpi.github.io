@@ -3,7 +3,7 @@ layout: post
 title: "树莓派+volumio+DAC声卡+WIFI热点组建DLNA HIFI播放器"
 ---
 
-首先感谢以下大神的文章（本文是在以下文章中总结出来的，建议线先按照大神的思路走，碰到问题再来看本文）：<br>
+首先感谢以下大神的文章（本文是在以下文章中总结出来的，建议先按照大神的思路走一遍，碰到问题再来看本文）：<br>
 http://wangye.org/blog/archives/845/
 http://ju.outofmemory.cn/entry/1351
 
