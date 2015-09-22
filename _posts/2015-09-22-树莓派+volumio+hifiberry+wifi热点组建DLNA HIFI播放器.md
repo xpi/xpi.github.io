@@ -17,19 +17,24 @@ Volumio开始是没有密码的，所以用SHH是登录不到，最好是用屏�
 PS：在volumio的所有命令行操作都要加上 sudo 
 <h2>第二步： 网络配置</h2>	
 懒得打了：参照以下
+
 http://wangye.org/blog/archives/845/
 这里面有两种方案：第一种是能够顺利使用DLNA，但是没有DHCP服务器，不插路由器的话手机连上去是获取不了IP的
 第二种方案是路由器模式，但手机端却不能搜索到树莓派的DLNA了，修复方法是下面这篇文章给的思路
+
 http://ju.outofmemory.cn/entry/1351
 看完后我把一下参数改了一下
 listening_ip=192.168.4.1  #其实这个就wlan0的ip
 friendly_name=volumio  #这里默认是注释掉了的，把它去掉
 notify_interval=60  #还有这个通知改成了60秒，这样DLNA服务就更容易搜索到了
 保存之后执行：
+
 #停止minidlna服务
 sudo service minidlna stop
+
 #让minidlna随机启动
 sudo update-rc.d minidlna defaults 
+
 #启动minidlna服务
 sudo service minidlna start 
 <h2>第三步： 安装手机端APP</h2>
